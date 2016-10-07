@@ -13,8 +13,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.layout2);
 
         LinearLayout l2 = (LinearLayout) findViewById(R.id.mLayout2);
-        Button btn = new Button(MainActivity.this);
-        btn.setText("Click Click");
-        l2.addView(btn);
+        Button btn1 = new Button(MainActivity.this);
+        btn1.setText("Button1");
+        l2.addView(btn1);
+        Button btn2 = new Button(MainActivity.this);
+        btn2.setText("Button2");
+        l2.addView(btn2);
+        Button btn3 = new Button(MainActivity.this);
+        btn3.setText("Button3");
+        l2.addView(btn3);
     }
 }
